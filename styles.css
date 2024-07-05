@@ -41,21 +41,22 @@ header{
 
 .logo{
     position: fixed;
-    left: 1100px;
     height: 100px;
     width: 200px;
+    left: 1000px;
+    top:50px;
 }
 .image{
     height: 150px;
     position: absolute;
-    left: 100px;
+    top: 10px;
+
 }
 
 nav ul {
     list-style: none;
-    padding: 50px;
+
     position: relative;
-    top: 40px;
 
 }
 

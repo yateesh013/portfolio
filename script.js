@@ -120,3 +120,15 @@ document.addEventListener('DOMContentLoaded', function() {
     
 });
 
+document.addEventListener("DOMContentLoaded",function() {
+    const animationScript = ["FrontEnd Developer", "Python Developer"];
+  
+    // Typing animation script start
+    new Typed(".typing", {
+      strings: animationScript,
+      typeSpeed: 100,
+      backSpeed: 60,
+      loop: true,
+    });
+  
+  });
