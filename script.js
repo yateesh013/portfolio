@@ -6,6 +6,18 @@ document.addEventListener('DOMContentLoaded', function() {
         window.location.href = 'resume.pdf';
     });
 
+    const p1=document.getElementById('project1');
+    p1.addEventListener('click',function(){
+        window.location.href="https://github.com/yateesh013/Python_Quiz/archive/refs/heads/main.zip"
+    });
+
+    const p2=document.getElementById('project2');
+    p2.addEventListener('click',function(){
+        window.location.href="https://github.com/yateesh013/BILLER/archive/refs/heads/main.zip"
+    });
+
+
+
     particlesJS('particles-js', {
 
         "particles": {
@@ -129,6 +141,8 @@ document.addEventListener("DOMContentLoaded",function() {
       typeSpeed: 100,
       backSpeed: 60,
       loop: true,
+	showCursor:false,
+	backDelay:200,
     });
   
   });

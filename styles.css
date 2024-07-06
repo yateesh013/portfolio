@@ -19,9 +19,11 @@ body {
 header{
     background: rgba(51, 51, 51, 0.9);
     color: #fff;
-    padding: 10px 10px;
+    padding: 10px 300px;
     position: relative;
     text-align: center;
+    height:200px;
+    corner radius:10px;
 }
 
 .name{
@@ -44,19 +46,19 @@ header{
     height: 100px;
     width: 200px;
     left: 1000px;
-    top:50px;
+    top:30px;
 }
 .image{
     height: 150px;
     position: absolute;
     top: 10px;
+    left:20px;
 
 }
 
 nav ul {
     list-style: none;
-
-    position: relative;
+    margin-top:40px;
 
 }
 
@@ -118,7 +120,7 @@ h2:hover{
     background: #333;
     border: none;
     color: #fff;
-    border-radius: 5px;
+    border-radius: 25px;
 }
 
 #downloadResume:hover {
@@ -131,4 +133,20 @@ h2:hover{
 }
 
 
+
+P{
+    padding-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h4{
+    padding-left: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+h5{
+    padding-left: 40px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
 
