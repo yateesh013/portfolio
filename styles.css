@@ -23,54 +23,7 @@ header{
     position: relative;
     text-align: center;
     height:200px;
-    
-}
-
-@media(max-width:600px){
-    header{
-        height: 150px;
-    }
-    #name2{
-        position: absolute;
-        top: 10px;
-        left: 100px;
-        font-size: 24px;
-    }
-    #name2:hover{
-        color: #08df28;
-        font-size: 26px;
-    }
-    #t1{
-        font-size:medium;
-        position: absolute;
-        top:55px;
-        left:120px;
-    }   
-    #t1:hover{
-        color: darkred;
-        font-size: larger;
-    } 
-
-    nav ul {
-        list-style:lower-greek;
-        top:50px;
-        position:absolute;
-        left: 10px;
-
-    }
-    
-    nav ul li {
-        display: inline;
-        margin: 0 1px;
-    }
-    nav ul li :hover{
-        color: darkred;
-        display:inline-block;
-        transition: ease-in;
-        font-size:larger;
-        
-    }
-    
+    corner radius:10px;
 }
 
 .name{
